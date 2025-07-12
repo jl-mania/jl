@@ -1,6 +1,6 @@
 const commentList = document.getElementById('comment-list');
 const newCommentForm = document.getElementById('new-comment-form');
-const googleSheetUrl = "YOUR_WEB_APP_URL_HERE"; // Ganti dengan URL Web App Anda
+const googleSheetUrl = "https://docs.google.com/spreadsheets/d/1NEuuBN6WRmwOFR9PZEFCRirJIA92neDYGXylyLsaX5Y/edit?gid=0#gid=0"; // Ganti dengan URL Web App Anda
 
 async function getComments() {
     try {
